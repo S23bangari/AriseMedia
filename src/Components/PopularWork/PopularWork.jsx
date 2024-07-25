@@ -1,5 +1,15 @@
 import React from 'react';
-import Showcase from '../../assets/Showcase.mp4';
+import SIDEMEN from '../../assets/SIDEMEN.mp4'
+import MagnatesMedia_1 from '../../assets/MagnatesMedia_1.mp4'
+import MagnatesMedia_2 from '../../assets/MagnatesMedia_1.mp4'
+import Techno_Gamerz  from '../../assets/Techno_Gamerz.mp4'
+import VisualVenture from '../../assets/Visual Venture.mp4'
+import INTERNET_ANARCHIST_1 from '../../assets/INTERNET_ANARCHIST_1.mp4'
+import INTERNET_ANARCHIST_2 from '../../assets/INTERNET_ANARCHIST_1.mp4'
+import CRUMB from '../../assets/CRUMB.mp4'
+import TechShot from '../../assets/TechShot.mp4'
+
+
 export default function PopularWork() {
   return (
     <div className="pw-main">
@@ -9,7 +19,7 @@ export default function PopularWork() {
       <div className="card-grid">
         <div className="video-box">
           <video autoPlay loop muted className="video-cards">
-            <source src={Showcase} type="video/mp4" />
+            <source src={SIDEMEN} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="name">
@@ -22,7 +32,7 @@ export default function PopularWork() {
         </div>
         <div className="video-box">
           <video autoPlay loop muted className="video-cards">
-            <source src={Showcase} type="video/mp4" />
+            <source src={MagnatesMedia_1} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="name">
@@ -35,7 +45,7 @@ export default function PopularWork() {
         </div>
         <div className="video-box">
           <video autoPlay loop muted className="video-cards">
-            <source src={Showcase} type="video/mp4" />
+            <source src={Techno_Gamerz} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="name">
@@ -49,7 +59,7 @@ export default function PopularWork() {
         {/* Add more video-box divs as needed */}
         <div className="video-box">
           <video autoPlay loop muted className="video-cards">
-            <source src={Showcase} type="video/mp4" />
+            <source src={MagnatesMedia_2} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="name">
@@ -63,7 +73,7 @@ export default function PopularWork() {
 
         <div className="video-box">
           <video autoPlay loop muted className="video-cards">
-            <source src={Showcase} type="video/mp4" />
+            <source src={VisualVenture} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="name">
@@ -77,7 +87,7 @@ export default function PopularWork() {
 
         <div className="video-box">
           <video autoPlay loop muted className="video-cards">
-            <source src={Showcase} type="video/mp4" />
+            <source src={INTERNET_ANARCHIST_1} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="name">
@@ -91,7 +101,7 @@ export default function PopularWork() {
 
         <div className="video-box">
           <video autoPlay loop muted className="video-cards">
-            <source src={Showcase} type="video/mp4" />
+            <source src={INTERNET_ANARCHIST_2} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="name">
@@ -105,7 +115,7 @@ export default function PopularWork() {
 
         <div className="video-box">
           <video autoPlay loop muted className="video-cards">
-            <source src={Showcase} type="video/mp4" />
+            <source src={CRUMB} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="name">
@@ -119,7 +129,7 @@ export default function PopularWork() {
 
         <div className="video-box">
           <video autoPlay loop muted className="video-cards">
-            <source src={Showcase} type="video/mp4" />
+            <source src={TechShot} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="name">
