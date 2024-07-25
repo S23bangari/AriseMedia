@@ -1,0 +1,569 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --main-font: "Roboto", sans-serif;
+    --main-backgrounfcolor: black;
+    --secondarycolor: #313131
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:var(--main-font) ;
+    background-color: var(--main-backgrounfcolor);
+}
+
+.header-main{
+    @apply
+    text-white 
+    flex 
+    items-center 
+    justify-center 
+}
+
+.header-content{
+  @apply
+    flex
+    items-center
+    space-x-3
+    border-2
+    rounded-3xl
+    p-3 
+    m-3
+    text-xs
+}
+
+@screen sm {
+    .header-content{
+      @apply space-x-12
+      text-sm
+      
+    }
+  }
+  
+@screen md {
+    .header-content {
+      @apply space-x-16
+      text-base
+  }
+}
+  
+@screen lg {
+    .header-content {
+      @apply
+      space-x-24
+    }
+}
+  
+  @screen xl {
+    .header-content {
+      @apply space-x-24
+    }
+}
+
+.schedul-button{
+  @apply
+  bg-yellow-500 text-black px-1 py-2 rounded-lg hover:bg-yellow-600 
+
+}
+
+
+@screen sm {
+    .schedul-button{
+      @apply bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600
+
+    }
+  }
+  
+@screen md {
+    .schedul-button {
+      @apply bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600
+  }
+}
+  
+@screen lg {
+    .schedul-button {
+      @apply
+      bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600
+    }
+}
+  
+  @screen xl {
+    .schedul-button {
+      @apply bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600
+    }
+}
+
+.footer-main{
+  @apply text-white
+   p-20
+   flex
+   flex-col
+   items-center 
+   justify-center
+    text-sm
+}
+
+.footer-content{
+  @apply flex
+  flex-col
+   items-center 
+   space-x-1
+   gap-5
+}
+
+@screen sm {
+  .footer-content{
+    @apply 
+    flex
+    flex-col
+    items-center 
+    space-x-0
+
+  }
+}
+
+@screen md {
+  .footer-content {
+    @apply 
+    flex
+    flex-col
+    items-center 
+    space-x-1
+}
+}
+
+@screen lg {
+  .footer-content {
+    @apply
+    flex
+    flex-row
+   items-center 
+   space-x-4
+  }
+}
+
+@screen xl {
+  .footer-content {
+    @apply 
+    flex
+    flex-row
+    items-center 
+    space-x-14
+  }
+}
+
+.Render{
+  @apply
+  font-bold text-4xl
+  p-0
+}
+.GFX{
+  @apply
+  text-4xl
+}
+
+
+@screen sm {
+  .Render{
+    @apply 
+    font-bold text-4xl
+
+  }
+}
+
+@screen md {
+   .Render{
+    @apply 
+    font-bold text-4xl
+}
+}
+
+@screen lg {
+   .Render{
+    @apply
+    font-bold text-3xl
+  }
+}
+
+@screen xl {
+   .Render{
+    @apply 
+    font-bold text-4xl
+  }
+}
+
+@screen sm {
+  .GFX{
+    @apply 
+    text-4xl
+  }
+}
+
+@screen md {
+  .GFX{
+    @apply 
+    text-4xl
+}
+}
+
+@screen lg {
+  .GFX{
+    @apply
+    text-3xl
+  }
+}
+
+@screen xl {
+  .GFX{
+    @apply 
+    text-4xl
+  }
+}
+
+.mail-text{
+  @apply
+  text-white
+  hover:text-gray-400
+  text-sm
+}
+
+.Logo{
+  @apply
+  flex
+  items-center 
+  space-x-1
+  gap-5
+}
+
+.Logo-content{
+  @apply
+    flex
+    items-center 
+    space-x-1
+    gap-5
+}
+
+.Logo-text{
+  display: none;
+}
+@media (min-width: 640px){
+  .Logo-text{
+  display: none;
+  }
+}
+
+@media (min-width: 768px){
+  .Logo-text{
+    display: none;
+    }
+
+}
+
+@media (min-width: 1024px){
+  .Logo-text{
+    display: block;
+    }
+
+}
+
+@media (min-width: 1280px) {
+  .Logo-text{
+    display: block;
+    }
+  
+}
+
+@media (min-width: 1536px){
+  .Logo-text{
+    display:block;
+    }
+}
+
+
+.footer-copyright {
+  display: flex;
+  margin-top: 2rem; /* m-8 */
+  text-align: center; /* Center text for smaller screens */
+  flex-direction: column;
+}
+
+/* Apply this rule for larger screens */
+@media (min-width: 640px) {
+  .footer-copyright {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .RR-text {
+    margin-left: 0.5rem; /* Add some space between the two spans */
+  }
+}
+
+
+.video{
+  @apply
+  flex
+    justify-center
+}
+
+
+.button-hero{
+  @apply
+  flex
+  justify-center
+  gap-0
+  
+}
+
+.book-now-button{
+  @apply 
+  bg-orange-500
+  px-3
+  py-2
+  m-5
+  text-lg
+  text-white
+  font-medium
+}
+
+.our-work-button{
+  @apply 
+  bg-white
+  px-3
+  py-2
+  m-5
+  text-lg
+  text-black
+  font-medium
+}
+
+@media (min-width: 640px){
+  .button-hero{
+    gap: 3rem;
+  }
+}
+
+@media (min-width: 768px){
+  .button-hero{
+    gap: 3rem;
+    }
+
+}
+
+@media (min-width: 1024px){
+  .button-hero{
+    gap: 3rem;
+    }
+
+}
+
+@media (min-width: 1280px) {
+  .button-hero{
+    gap: 3rem;
+    }
+  
+}
+
+@media (min-width: 1536px){
+  .button-hero{
+    gap: 3rem;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 640px){
+  .book-now-button,.our-work-button{
+    padding-left: 1.25rem ;
+    padding-right:1.25rem ;
+    padding-top: 0.50rem;
+    padding-bottom: 0.50rem;
+  }
+}
+
+@media (min-width: 768px){
+  .book-now-button,.our-work-button{
+    padding-left: 1.50rem ;
+    padding-right:1.50rem ;
+    padding-top: 0.50rem;
+    padding-bottom: 0.50rem;
+    }
+
+}
+
+@media (min-width: 1024px){
+  .book-now-button,.our-work-button{
+    padding-left: 1.50rem ;
+    padding-right:1.50rem ;
+    padding-top: 0.50rem;
+    padding-bottom: 0.50rem;
+    }
+
+}
+
+@media (min-width: 1280px) {
+  .book-now-button,.our-work-button{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    padding-top: 0.50rem;
+    padding-bottom: 0.50rem;
+    }
+  
+}
+
+@media (min-width: 1536px){
+  .book-now-button,.our-work-button{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.50rem;
+    padding-bottom: 0.50rem;
+    }
+
+}
+
+.review-main{
+  @apply
+  flex-row
+  text-white
+  bg-neutral-950
+   mt-10
+}
+
+.review-content-one{
+  @apply
+  flex
+  justify-center
+  bg-neutral-950
+}
+
+.review-top-conatiner{
+  @apply
+  flex
+  justify-center
+  p-5
+  bg-neutral-950
+}
+
+.review-image-top{
+  @apply
+  flex
+  gap-1
+  bg-neutral-950
+  rounded-full
+
+}
+
+.review-top-content{
+  @apply
+  flex-col
+  ml-10
+}
+
+.review-stars{
+  @apply
+  flex
+  gap-1
+  bg-neutral-950
+}
+
+.review-text{
+  @apply
+  bg-neutral-950
+}
+
+
+.review-content-two {
+  @apply overflow-hidden bg-neutral-950;
+}
+
+.review-marquee {
+  @apply flex items-center gap-10 bg-neutral-950;
+  display: flex;
+  animation: scroll 10s linear infinite;
+}
+
+.review-image {
+  @apply w-16 h-auto rounded-full;
+}
+
+@screen sm {
+  .review-image{
+    @apply 
+    w-16 h-auto rounded-full;
+  }
+}
+
+@screen md {
+  .review-image {
+    @apply 
+    w-20 h-auto rounded-full;
+}
+}
+
+@screen lg {
+  .review-image {
+    @apply
+    w-20 h-auto rounded-full;
+
+  }
+}
+
+@screen xl {
+  .review-image{
+    @apply 
+    w-24 h-auto rounded-full;
+  }
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.pw-main {
+  @apply flex flex-col text-white justify-center items-center bg-neutral-950;
+}
+
+.pw-header {
+  @apply flex font-medium text-4xl mt-20;
+}
+
+.card-grid {
+  @apply grid grid-cols-1 md:grid-cols-3  mt-10 bg-neutral-950 ;
+}
+
+.video-box {
+  @apply flex flex-col items-center text-center bg-neutral-950 ;
+}
+
+.video-cards{
+  @apply w-3/4 shadow m-0  bg-neutral-950 rounded-lg;
+}
+
+.name {
+  @apply flex-row mt-4  bg-transparent relative;
+}
+
+.yt-name{
+  @apply  text-2xl bg-transparent absolute bottom-24 right-40  ;
+}
+
+.sub-view-text {
+  @apply flex justify-center gap-1 mt-1 text-white bg-transparent  relative bottom-16 right-16 ;
+}
+
+.subs, .views {
+  @apply flex text-xs bg-transparent border-2 p-1.5 rounded-3xl ;
+}
