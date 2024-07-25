@@ -3,6 +3,8 @@ import './index.css';
 import ReactDOM from 'react-dom/client';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
+
 import Layout from './Layout.jsx'
 import Home from './Components/Home/Home.jsx'
 import Review from './Components/Review/Review.jsx';
