@@ -319,7 +319,7 @@
 }
 
 .video-display{
-  @apply rounded-xl w-5/6  shadow mx-2 my-2 border-2 border-solid
+  @apply rounded-xl w-10/12  shadow mx-2 my-2 border-2 border-solid
 }
 
 
@@ -352,7 +352,7 @@
 
 @media (min-width: 1536px){
   .video-display{
-    @apply w-3/4
+    @apply w-2/3
     }
 
 }
