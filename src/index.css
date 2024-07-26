@@ -501,7 +501,7 @@
 }
 
 .user-image{
-  @apply size-12
+  @apply size-10
 }
 
 
@@ -547,10 +547,50 @@
   bg-neutral-950
 }
 
+.start-review{
+  @apply size-5
+}
+
+@media (min-width: 640px){
+  .start-review{
+    @apply size-6
+  }
+}
+
+@media (min-width: 768px){
+  .start-review{
+    @apply size-8
+    }
+
+}
+
+@media (min-width: 1024px){
+  .start-review{
+    @apply size-8
+    }
+
+}
+
+@media (min-width: 1280px) {
+  .start-review{
+    @apply size-10
+    }
+  
+}
+
+@media (min-width: 1536px){
+  .start-review{
+    @apply size-10
+    }
+
+}
+
+
+
 .review-text{
   @apply
   bg-neutral-950
-  text-sm
+  text-xs
 }
 
 @media (min-width: 640px){
@@ -586,9 +626,6 @@
     }
 
 }
-
-
-
 
 
 @media (min-width: 640px){

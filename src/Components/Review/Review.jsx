@@ -35,11 +35,11 @@ export default function Review() {
           </div>
           <div className="review-top-content">
             <div className="review-stars">
-              <MdOutlineStar color='#FFD700' size={26}/>
-              <MdOutlineStar color='#FFD700' size={26}/>
-              <MdOutlineStar color='#FFD700' size={26}/>
-              <MdOutlineStar color='#FFD700' size={26}/>
-              <MdOutlineStar color='#FFD700' size={26}/>
+              <MdOutlineStar color='#FFD700' className='start-review'/>
+              <MdOutlineStar color='#FFD700' className='start-review'/>
+              <MdOutlineStar color='#FFD700' className='start-review'/>
+              <MdOutlineStar color='#FFD700' className='start-review'/>
+              <MdOutlineStar color='#FFD700' className='start-review'/>
             </div>
             <div className="review-text">
               Average review from 40+ clients
