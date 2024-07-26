@@ -322,10 +322,10 @@
 .book-now-button{
   @apply 
   bg-orange-500
-  px-2
+  px-3
   py-1.5
   m-5
-  text-base
+  text-lg
   text-white
   font-medium
 }
@@ -333,10 +333,10 @@
 .our-work-button{
   @apply 
   bg-white
-  px-2
+  px-3
   py-1.5
   m-5
-  text-base
+  text-lg
   text-black
   font-medium
 }
@@ -433,6 +433,7 @@
   flex
   justify-center
   p-5
+  mt-3  
   bg-neutral-950
 }
 
@@ -448,7 +449,7 @@
 .review-top-content{
   @apply
   flex-col
-  ml-10
+  ml-2
 }
 
 .review-stars{
@@ -461,11 +462,84 @@
 .review-text{
   @apply
   bg-neutral-950
+  text-sm
+}
+
+@media (min-width: 640px){
+  .review-top-content{
+    @apply ml-12
+  }
+}
+
+@media (min-width: 768px){
+  .review-top-content{
+    @apply ml-10
+    }
+
+}
+
+@media (min-width: 1024px){
+  .review-top-content{
+    @apply ml-10
+    }
+
+}
+
+@media (min-width: 1280px) {
+  .review-top-content{
+    @apply ml-10
+    }
+  
+}
+
+@media (min-width: 1536px){
+  .review-top-content{
+    @apply ml-12
+    }
+
+}
+
+
+
+
+
+@media (min-width: 640px){
+  .review-text{
+    @apply text-lg
+  }
+}
+
+@media (min-width: 768px){
+  .review-text{
+    @apply text-lg
+    }
+
+}
+
+@media (min-width: 1024px){
+  .review-text{
+    @apply text-xl
+    }
+
+}
+
+@media (min-width: 1280px) {
+  .review-text{
+    @apply text-xl
+    }
+  
+}
+
+@media (min-width: 1536px){
+  .review-text{
+    @apply text-2xl
+    }
+
 }
 
 
 .review-content-two {
-  @apply overflow-hidden bg-neutral-950;
+  @apply overflow-hidden bg-neutral-950 mt-5;
 }
 
 .review-marquee {
