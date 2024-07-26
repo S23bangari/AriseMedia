@@ -24,7 +24,7 @@ export default function Header() {
           className="schedul-button"
 
         >
-          <button>Schedul a call</button>
+          <button>schedule a call</button>
         </Link>
       </div>
     </header>

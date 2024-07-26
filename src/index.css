@@ -28,7 +28,7 @@
   @apply
     flex
     items-center
-    space-x-5
+    space-x-3
     border-2
     rounded-3xl
     p-3 
@@ -315,17 +315,17 @@
   @apply
   flex
   justify-center
-  gap-0
+  gap-1
   
 }
 
 .book-now-button{
   @apply 
   bg-orange-500
-  px-3
-  py-2
+  px-2
+  py-1.5
   m-5
-  text-lg
+  text-base
   text-white
   font-medium
 }
@@ -333,44 +333,44 @@
 .our-work-button{
   @apply 
   bg-white
-  px-3
-  py-2
+  px-2
+  py-1.5
   m-5
-  text-lg
+  text-base
   text-black
   font-medium
 }
 
 @media (min-width: 640px){
   .button-hero{
-    gap: 3rem;
+    gap: 4rem;
   }
 }
 
 @media (min-width: 768px){
   .button-hero{
-    gap: 3rem;
+    gap: 4rem;
     }
 
 }
 
 @media (min-width: 1024px){
   .button-hero{
-    gap: 3rem;
+    gap: 4rem;
     }
 
 }
 
 @media (min-width: 1280px) {
   .button-hero{
-    gap: 3rem;
+    gap: 8rem;
     }
   
 }
 
 @media (min-width: 1536px){
   .button-hero{
-    gap: 3rem;
+    gap: 10rem;
     }
 
 }
@@ -381,50 +381,35 @@
 
 @media (min-width: 640px){
   .book-now-button,.our-work-button{
-    padding-left: 1.25rem ;
-    padding-right:1.25rem ;
-    padding-top: 0.50rem;
-    padding-bottom: 0.50rem;
+    @apply text-lg  px-4 py-2
   }
 }
 
 @media (min-width: 768px){
   .book-now-button,.our-work-button{
-    padding-left: 1.50rem ;
-    padding-right:1.50rem ;
-    padding-top: 0.50rem;
-    padding-bottom: 0.50rem;
-    }
+    @apply text-xl  px-4 py-2
+  }
 
 }
 
 @media (min-width: 1024px){
   .book-now-button,.our-work-button{
-    padding-left: 1.50rem ;
-    padding-right:1.50rem ;
-    padding-top: 0.50rem;
-    padding-bottom: 0.50rem;
-    }
+    @apply text-xl  px-4 py-2
+  }
 
 }
 
 @media (min-width: 1280px) {
   .book-now-button,.our-work-button{
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
-    padding-top: 0.50rem;
-    padding-bottom: 0.50rem;
-    }
+    @apply text-2xl  px-4 py-2
+  }
   
 }
 
 @media (min-width: 1536px){
   .book-now-button,.our-work-button{
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    padding-top: 0.50rem;
-    padding-bottom: 0.50rem;
-    }
+    @apply text-2xl px-4 py-2
+  }
 
 }
 
