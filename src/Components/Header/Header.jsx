@@ -11,12 +11,7 @@ export default function Header() {
         >
         <House />
         </Link>
-        <Link
-          to="/"
-          className="flex items-center space-x-2 text-white hover:text-gray-400"
-        >
-          Home
-        </Link>
+
         <Link to="/OurWork" className="text-white hover:text-gray-400">
           Our Work
         </Link>

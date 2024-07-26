@@ -28,12 +28,12 @@
   @apply
     flex
     items-center
-    space-x-3
+    space-x-10
     border-2
     rounded-3xl
     p-3 
     m-3
-    text-xs
+    text-sm
 }
 
 @screen sm {
