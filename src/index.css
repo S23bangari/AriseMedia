@@ -494,7 +494,48 @@
   @apply
   flex-col
   ml-2
+  bg-neutral-950
 }
+
+.user-image{
+  @apply size-12
+}
+
+
+@media (min-width: 640px){
+  .user-image{
+    @apply size-14
+  }
+}
+
+@media (min-width: 768px){
+  .user-image{
+    @apply size-14
+    }
+
+}
+
+@media (min-width: 1024px){
+  .user-image{
+    @apply size-16
+    }
+
+}
+
+@media (min-width: 1280px) {
+  .user-image{
+    @apply size-16
+    }
+  
+}
+
+@media (min-width: 1536px){
+  .user-image{
+    gap: 10rem;
+    }
+
+}
+
 
 .review-stars{
   @apply

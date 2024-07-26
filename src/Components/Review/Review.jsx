@@ -29,9 +29,9 @@ export default function Review() {
       <div className="review-content-one">
         <div className="review-top-conatiner">
           <div className="review-image-top">
-            <FaUserCircle size={50} />
-            <FaUserCircle size={50}/>
-            <FaUserCircle size={50}/>
+            <FaUserCircle className='user-image' />
+            <FaUserCircle className='user-image'/>
+            <FaUserCircle className='user-image'/>
           </div>
           <div className="review-top-content">
             <div className="review-stars">
