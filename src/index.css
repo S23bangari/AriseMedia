@@ -28,46 +28,49 @@
   @apply
     flex
     items-center
-    gap-4
+    gap-3
     border-2
     rounded-3xl
     p-3 
     m-3
     text-sm
-    w-5/6 
 }
 
-@screen sm {
-    .header-content{
-      @apply  w-9/12
-      space-x-8
-      text-sm 
 
-    }
-  }
-  
-@screen md {
-    .header-content {
-      @apply w-2/4
-      space-x-6
-      text-base
+@media (min-width: 640px){
+  .header-content{
+    @apply gap-10 text-lg
   }
 }
-  
-@screen lg {
-    .header-content {
-      @apply
-      w-2/4
-      space-x-14
+
+@media (min-width: 768px){
+  .header-content{
+    @apply gap-14 text-lg
     }
+
 }
-  
-  @screen xl {
-    .header-content {
-      @apply w-2/5
-      space-x-14
+
+@media (min-width: 1024px){
+  .header-content{
+    @apply gap-14 text-lg
     }
+
 }
+
+@media (min-width: 1280px) {
+  .header-content{
+    @apply gap-16 text-lg
+    }
+  
+}
+
+@media (min-width: 1536px){
+  .header-content{
+   @apply gap-20 text-xl
+    }
+
+}
+
 
 .schedul-button{
   @apply
