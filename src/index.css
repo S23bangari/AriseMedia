@@ -781,11 +781,11 @@
 }
 
 .yt-name{
-  @apply  text-2xl bg-transparent absolute bottom-24 right-32  ;
+  @apply  text-2xl bg-transparent absolute bottom-24 right-28  ;
 }
 
 .sub-view-text {
-  @apply flex justify-center gap-1 mt-1 text-white bg-transparent  relative bottom-16 right-12 ;
+  @apply flex justify-center gap-1 mt-1 text-white bg-transparent  relative bottom-16 right-8 ;
 }
 
 .subs, .views {
