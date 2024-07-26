@@ -11,8 +11,8 @@ export default function Home() {
 
     <div className="video">
         
-        <video autoPlay loop muted className="rounded-xl w-2/3 border-2 border-solid shadow mx-2 my-2">
-            <source src={Showcase} type="video/mp4" />
+        <video autoPlay loop muted className="video-display">
+            <source src={Showcase} type="video/mp4"/>
             Your browser does not support the video tag.
         </video>
     </div>

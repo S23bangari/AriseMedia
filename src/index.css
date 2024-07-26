@@ -28,25 +28,28 @@
   @apply
     flex
     items-center
-    space-x-3
+    gap-4
     border-2
     rounded-3xl
     p-3 
     m-3
     text-sm
+    w-5/6 
 }
 
 @screen sm {
     .header-content{
-      @apply space-x-12
-      text-sm
-      
+      @apply  w-9/12
+      space-x-8
+      text-sm 
+
     }
   }
   
 @screen md {
     .header-content {
-      @apply space-x-16
+      @apply w-2/4
+      space-x-6
       text-base
   }
 }
@@ -54,13 +57,15 @@
 @screen lg {
     .header-content {
       @apply
-      space-x-24
+      w-2/4
+      space-x-14
     }
 }
   
   @screen xl {
     .header-content {
-      @apply space-x-24
+      @apply w-2/5
+      space-x-14
     }
 }
 
@@ -307,7 +312,46 @@
 .video{
   @apply
   flex
-    justify-center
+  justify-center
+}
+
+.video-display{
+  @apply rounded-xl w-5/6  shadow mx-2 my-2 border-2 border-solid
+}
+
+
+@media (min-width: 640px){
+  .video-display{
+  @apply w-2/3
+  }
+}
+
+@media (min-width: 768px){
+  .video-display{
+  @apply w-2/3
+    }
+
+}
+
+@media (min-width: 1024px){
+  .video-display{
+  @apply w-2/3
+    }
+
+}
+
+@media (min-width: 1280px) {
+  .video-display{
+  @apply w-2/3
+    }
+  
+}
+
+@media (min-width: 1536px){
+  .video-display{
+    @apply w-3/4
+    }
+
 }
 
 
