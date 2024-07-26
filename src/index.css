@@ -596,7 +596,47 @@
 }
 
 .pw-header {
-  @apply flex font-medium text-4xl mt-20;
+  @apply flex mt-20;
+}
+
+.popular-work-text{
+  @apply text-3xl bg-neutral-950 font-medium
+}
+
+
+
+@media (min-width: 640px){
+  .popular-work-text{
+    @apply text-5xl  font-medium
+  }
+}
+
+@media (min-width: 768px){
+  .popular-work-text{
+    @apply text-4xl font-medium
+  }
+
+}
+
+@media (min-width: 1024px){
+  .popular-work-text{
+    @apply text-5xl font-medium
+  }
+
+}
+
+@media (min-width: 1280px) {
+  .popular-work-text{
+    @apply text-5xl font-medium 
+  }
+  
+}
+
+@media (min-width: 1536px){
+  .popular-work-text{
+    @apply text-5xl font-medium 
+  }
+
 }
 
 .card-grid {

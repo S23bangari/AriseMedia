@@ -14,7 +14,7 @@ export default function PopularWork() {
   return (
     <div className="pw-main">
       <div className="pw-header">
-        <span className='bg-neutral-950'>Some of Our Popular Work</span>
+        <span className='popular-work-text'>Some of Our Popular Work</span>
       </div>
       <div className="card-grid">
         <div className="video-box">
