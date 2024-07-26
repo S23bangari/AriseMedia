@@ -1,7 +1,7 @@
 import React from 'react';
 import SIDEMEN from '../../assets/SIDEMEN.mp4'
 import MagnatesMedia_1 from '../../assets/MagnatesMedia_1.mp4'
-import MagnatesMedia_2 from '../../assets/MagnatesMedia_1.mp4'
+import MagnatesMedia_2 from '../../assets/MagnatesMedia_2.mp4'
 import Techno_Gamerz  from '../../assets/Techno_Gamerz.mp4'
 import VisualVenture from '../../assets/Visual Venture.mp4'
 import INTERNET_ANARCHIST_1 from '../../assets/INTERNET_ANARCHIST_1.mp4'
