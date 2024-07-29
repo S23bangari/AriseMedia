@@ -1,8 +1,9 @@
 import React from 'react';
-import Showcase from '../../assets/Showcase.mp4'; // Adjusted the path
+import Showcase from '../../assets/Showcase.mp4'; 
 import { Link } from "react-router-dom";
 import Review from '../Review/Review';
 import PopularWork from '../PopularWork/PopularWork';
+import Shortvideo from '../ShortVideo/Shortvideo';
 
 export default function Home() {
   return (
@@ -31,8 +32,11 @@ export default function Home() {
           <button className='our-work-button'>Our work</button>
         </Link>
     </div>
+    <div className="next-content bg-neutral-950 ">
     <Review />
     <PopularWork /> 
+    <Shortvideo/>
+    </div>
     </div>
   );
 }

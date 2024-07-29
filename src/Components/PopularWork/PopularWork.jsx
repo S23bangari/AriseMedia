@@ -5,7 +5,7 @@ import MagnatesMedia_2 from '../../assets/MagnatesMedia_2.mp4'
 import Techno_Gamerz  from '../../assets/Techno_Gamerz.mp4'
 import VisualVenture from '../../assets/Visual Venture.mp4'
 import INTERNET_ANARCHIST_1 from '../../assets/INTERNET_ANARCHIST_1.mp4'
-import INTERNET_ANARCHIST_2 from '../../assets/INTERNET_ANARCHIST_1.mp4'
+import INTERNET_ANARCHIST_2 from '../../assets/INTERNET_ANARCHIST_2.mp4'
 import CRUMB from '../../assets/CRUMB.mp4'
 import TechShot from '../../assets/TechShot.mp4'
 
