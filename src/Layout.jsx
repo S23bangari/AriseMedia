@@ -4,6 +4,7 @@ import Footer from './Components/Footer/Footer'
 import Review from './Components/Review/Review'
 import PopularWork from './Components/PopularWork/PopularWork'
 import Shortvideos from './Components/ShortVideo/Shortvideo'
+import Bigcreator from './Components/Bigcreator/Bigcreator'
 import { Outlet } from 'react-router-dom'
 
 function Layout() {

@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import Review from '../Review/Review';
 import PopularWork from '../PopularWork/PopularWork';
 import Shortvideo from '../ShortVideo/Shortvideo';
+import Bigcreator from '../Bigcreator/Bigcreator';
+
 
 export default function Home() {
   return (
@@ -16,6 +18,7 @@ export default function Home() {
             <source src={Showcase} type="video/mp4"/>
             Your browser does not support the video tag.
         </video>
+
     </div>
 
     <div className='button-hero'>
@@ -36,6 +39,7 @@ export default function Home() {
     <Review />
     <PopularWork /> 
     <Shortvideo/>
+    <Bigcreator/>
     </div>
     </div>
   );

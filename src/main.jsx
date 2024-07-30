@@ -10,6 +10,7 @@ import Home from './Components/Home/Home.jsx'
 import Review from './Components/Review/Review.jsx';
 import PopularWork from './Components/PopularWork/PopularWork.jsx';
 import Shortvideo from './Components/ShortVideo/Shortvideo.jsx';
+import Bigcreator from './Components/Bigcreator/Bigcreator.jsx';
 import OurWork from './Components/OurWork/OurWork.jsx';
 import ClientReview from './Components/ClientReview/ClientReview.jsx';
 import ScheduleCall from './Components/ScheduleCall/ScheduleCall.jsx';
