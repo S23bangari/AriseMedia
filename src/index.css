@@ -1108,7 +1108,7 @@
 /* HearFromClient.css */
 
 .main-content-Hear{
-  @apply flex flex-col mt-10
+  @apply flex flex-col mt-10 mb-2
 
 }
 
