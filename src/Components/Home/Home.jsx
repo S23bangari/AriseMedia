@@ -5,6 +5,7 @@ import Review from '../Review/Review';
 import PopularWork from '../PopularWork/PopularWork';
 import Shortvideo from '../ShortVideo/Shortvideo';
 import Bigcreator from '../Bigcreator/Bigcreator';
+import HearFromClient from '../HearFromClient/HearFromClient';
 
 
 export default function Home() {
@@ -41,6 +42,7 @@ export default function Home() {
     <Shortvideo/>
     <Bigcreator/>
     </div>
+    <HearFromClient/>
     </div>
   );
 }

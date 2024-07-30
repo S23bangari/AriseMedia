@@ -108,6 +108,7 @@
 
 .footer-main{
   @apply text-white
+  bg-neutral-900
    p-20
    flex
    flex-col
@@ -122,6 +123,8 @@
    items-center 
    space-x-1
    gap-5
+   bg-neutral-900
+
 }
 
 @screen sm {
@@ -169,10 +172,14 @@
   @apply
   font-bold text-4xl
   p-0
+  bg-neutral-900
+
 }
 .GFX{
   @apply
   text-4xl
+  bg-neutral-900
+
 }
 
 
@@ -238,6 +245,7 @@
   text-white
   hover:text-gray-400
   text-sm
+  bg-neutral-900
 }
 
 .Logo{
@@ -246,6 +254,8 @@
   items-center 
   space-x-1
   gap-5
+  bg-neutral-900
+
 }
 
 .Logo-content{
@@ -254,6 +264,8 @@
     items-center 
     space-x-1
     gap-5
+    bg-neutral-900
+
 }
 
 .Logo-text{
@@ -298,6 +310,7 @@
   margin-top: 2rem; /* m-8 */
   text-align: center; /* Center text for smaller screens */
   flex-direction: column;
+
 }
 
 /* Apply this rule for larger screens */
@@ -1090,5 +1103,76 @@
     @apply text-3xl font-bold mb-8 bg-neutral-950;
   }
 
+}
+
+/* HearFromClient.css */
+
+.main-content-Hear{
+  @apply flex flex-col mt-10
+
+}
+
+.header-content-Hear{
+  @apply flex justify-center
+
+}
+
+.header-text{
+  @apply  font-medium text-white ;
+  font-family: var(--second-font) 
+}
+
+.card-review{
+  @apply grid grid-cols-1 mt-10  md:grid-cols-2 gap-x-10 gap-y-10 lg:grid-cols-3 gap-x-10 gap-y-10 xl:grid-cols-4 gap-x-10 gap-y-10
+}
+
+.title-text-Clinet{
+  font-size: 2.85rem; 
+  line-height: 1;
+}
+
+
+@media (min-width: 640px){
+
+  .title-text-Clinet{
+    font-size: 3.50rem; 
+    line-height: 1;
+  }
+
+}
+
+@media (min-width: 768px){
+
+  .title-text-Clinet{
+    font-size: 3.85rem; 
+    line-height: 1;
+  }
+
+}
+
+@media (min-width: 1024px){
+
+  .title-text-Clinet{
+    font-size: 3.75rem; 
+    line-height: 1;
+  }
+
+}
+
+@media (min-width: 1280px) {
+
+  .title-text-Clinet{
+    font-size: 3.95rem; 
+    line-height: 1;
+  }
+  
+}
+
+@media (min-width: 1536px){
+
+  .title-text-Clinet{
+    font-size: 3.95rem; 
+    line-height: 1;
+  }
 
 }

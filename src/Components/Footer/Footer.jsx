@@ -20,40 +20,41 @@ export default function Footer() {
           info.rendergfx@gmail.com
         </Link>
 
-        <Link to="tel:+91 93199 14361" className="text-white hover:text-gray-400 flex items-center">
+        <Link to="tel:+91 93199 14361" className="text-white hover:text-gray-400 flex items-center   bg-neutral-900
+">
           +91 93199 14361
         </Link>
         <div className="Logo">
-          <div className="Logo-content">
+          <div className="Logo-content  ">
         <Link
           to="https://www.instagram.com/rendergfx/" target="_blank"
-          className="flex items-center space-x-2  text-white hover:text-gray-400"
+          className="flex items-center space-x-2  text-white hover:text-gray-400   bg-neutral-900"
         >
-          <Instagram />
-          <span className="Logo-text">@Render_GFX</span>
+          <Instagram className="bg-neutral-900" />
+          <span className="Logo-text   bg-neutral-900">@Render_GFX</span>
         </Link>
 
         <Link
           to="https://x.com/render_gfx" target="_blank"
-          className="flex items-center space-x-2 text-white hover:text-gray-400"
+          className="flex items-center space-x-2 text-white hover:text-gray-400 bg-neutral-900"
         >
-          <Twitter />
-          <span className="Logo-text">@Render_GFX</span>
+          <Twitter className="bg-neutral-900" />
+          <span className="Logo-text bg-neutral-900">@Render_GFX</span>
         </Link>
 
         <Link
           to="https://in.linkedin.com/company/arisemedia-in"  target="_blank"
-          className="flex items-center space-x-2 text-white hover:text-gray-400"
+          className="flex items-center space-x-2 text-white hover:text-gray-400 bg-neutral-900"
         >
-          <Linkedin />
-          <span className="Logo-text">@Render_GFX</span>
+          <Linkedin className="bg-neutral-900" />
+          <span className="Logo-text bg-neutral-900">@Render_GFX</span>
         </Link>
         </div>
         </div>
       </div>
-      <div className="footer-copyright">
-        <span className="Copyright-text">Copyright @2024 RenderGFX.</span>
-        <span className="RR-text">All rights reserved.</span> 
+      <div className="footer-copyright bg-neutral-900">
+        <span className="Copyright-text bg-neutral-900">Copyright @2024 RenderGFX.</span>
+        <span className="RR-text bg-neutral-900">All rights reserved.</span> 
       </div>
     </footer>
   );
